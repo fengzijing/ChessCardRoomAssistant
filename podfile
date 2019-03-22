@@ -1,0 +1,22 @@
+
+platform :ios, '9.0'
+
+target "ChessCardRoomAssistant" do
+
+pod 'Masonry'  
+pod 'ReactiveObjC'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'SDWebImage'
+pod 'TZImagePickerController'
+
+#请求框架
+pod 'AFNetworking'
+#键盘管理
+pod 'IQKeyboardManager'
+# YY大神框架
+pod 'YYKit'
+
+
+
+end

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TFAgreementViewController">
+            <connections>
+                <outlet property="agreeBtn" destination="kfs-kT-DO2" id="ouz-Vs-Hfj"/>
+                <outlet property="bottomHeightCons" destination="icH-1I-cz3" id="ojq-MP-an4"/>
+                <outlet property="textView" destination="0hv-kd-2d1" id="H9N-dN-BgM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfs-kT-DO2">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.32549019607843138" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="icH-1I-cz3"/>
+                    </constraints>
+                    <state key="normal" title="同意">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="agreeDelegateBtn:" destination="-1" eventType="touchUpInside" id="a9Q-KY-AAl"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0hv-kd-2d1">
+                    <rect key="frame" x="10" y="0.0" width="355" height="617"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text"> This app respects and protects the privacy of all users who use the service. In order to provide you with more accurate and personalized services, this app will use and disclose your personal information in accordance with this Privacy Policy. This application will treat this information with a high degree of diligence and prudence. Except as otherwise provided in this Privacy Policy, this application will not disclose or provide this information to third parties without your prior permission. This app will update this privacy policy from time to time. By agreeing to the Service Use Agreement for this application, you are deemed to have agreed to the entire content of this Privacy Policy. This Privacy Policy is an integral part of this Application Service Agreement.
+
+First, What information does this app collect from you?
+
+1. This app does not collect any personal data information
+
+Second, data storage
+
+1. Data is only stored in the local database
+
+Third, notice and revision
+
+1. This application may modify the terms of this Privacy Policy as appropriate with the application upgrade, and such modifications form part of this Privacy Policy. For major changes, the app will provide more noticeable notices, and you may opt out of using the app; in this case, if you continue to use the app, you agree to the revised Privacy Policy. Constraint.
+
+2. Any changes will put your satisfaction in the first place. This app encourages you to review the app's privacy policy each time you use the app.
+
+Fourth, how to contact this application
+
+If you have any complaints or reports about the security of your network information, or if you have any questions, comments or suggestions about this Privacy Policy, your information, and any questions regarding this statement or the privacy practices of this application, please contact this application. Contact the coordinator. </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0hv-kd-2d1" secondAttribute="trailing" constant="10" id="6TV-dG-G9T"/>
+                <constraint firstItem="kfs-kT-DO2" firstAttribute="top" secondItem="0hv-kd-2d1" secondAttribute="bottom" id="BDG-oh-Qse"/>
+                <constraint firstItem="0hv-kd-2d1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QmH-iF-c4d"/>
+                <constraint firstAttribute="bottom" secondItem="kfs-kT-DO2" secondAttribute="bottom" id="aFu-2t-awZ"/>
+                <constraint firstAttribute="trailing" secondItem="kfs-kT-DO2" secondAttribute="trailing" id="lru-Hf-gDQ"/>
+                <constraint firstItem="kfs-kT-DO2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rmG-zI-UIC"/>
+                <constraint firstItem="0hv-kd-2d1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="s9W-3Z-RGp"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

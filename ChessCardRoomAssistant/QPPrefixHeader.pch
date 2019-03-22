@@ -1,0 +1,13 @@
+//
+//  QPPrefixHeader.pch
+//  ChessCardRoomAssistant
+//
+//  Created by 锋子 on 2019/3/22.
+//  Copyright © 2019 锋子. All rights reserved.
+//
+
+#ifndef QPPrefixHeader_pch
+#define QPPrefixHeader_pch
+
+#import "QPHeader.h"
+#endif /* QPPrefixHeader_pch */
