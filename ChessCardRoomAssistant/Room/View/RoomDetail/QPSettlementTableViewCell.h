@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
+
 + (QPSettlementTableViewCell *)cellWithTableView:(UITableView *)tableView;
 
 

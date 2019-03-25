@@ -17,11 +17,10 @@
 +(JSUserInfo *)shareManager;
 
 /**
- *  全部类别日记
+
  */
 @property (strong, nonatomic) NSMutableArray <BSEventModel *> * eventArr;
 
-@property (strong, nonatomic) NSMutableArray  * userArr;
 
 /**
  *  token

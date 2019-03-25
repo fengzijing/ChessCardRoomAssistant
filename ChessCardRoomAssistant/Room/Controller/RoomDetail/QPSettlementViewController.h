@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface QPSettlementViewController : UIViewController
 
+@property (nonatomic, strong) QPRoomModel * roomModel;
+
 @end
 
 NS_ASSUME_NONNULL_END

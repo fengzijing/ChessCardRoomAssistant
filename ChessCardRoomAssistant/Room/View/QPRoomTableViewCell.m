@@ -33,6 +33,20 @@
     self.headerImageView.layer.masksToBounds = YES;
 }
 
+-(void)setModel:(BSEventModel *)model{
+    _model = model;
+    self.headerImageView.image = [UIImage imageWithData:model.header_image];
+    self.roomLabel.text = model.title;
+    self.priceLabel.text = model.price;
+    if (model.isState) {
+        self.stateLabel.text = @"In use";
+        self.stateLabel.textColor = SMColorFromRGB(0xeb5300);
+    } else {
+        self.stateLabel.text = @"Empty";
+        self.stateLabel.textColor = SMColorFromRGB(0x448ADF);
+    }
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

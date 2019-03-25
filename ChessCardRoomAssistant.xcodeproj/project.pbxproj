@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5020E3DE2248785600F89B8C /* QPIncomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5020E3DC2248785600F89B8C /* QPIncomeTableViewCell.m */; };
+		5020E3DF2248785600F89B8C /* QPIncomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5020E3DD2248785600F89B8C /* QPIncomeTableViewCell.xib */; };
+		50A2D11D22487B0B001232CE /* QPRoomIncomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D11B22487B0B001232CE /* QPRoomIncomeViewController.m */; };
+		50A2D11E22487B0B001232CE /* QPRoomIncomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D11C22487B0B001232CE /* QPRoomIncomeViewController.xib */; };
+		50A2D12222487D6C001232CE /* QPIncomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D12022487D6C001232CE /* QPIncomeDetailViewController.m */; };
+		50A2D12322487D6C001232CE /* QPIncomeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D12122487D6C001232CE /* QPIncomeDetailViewController.xib */; };
+		50A2D12722487DD6001232CE /* QPIncomeDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D12522487DD6001232CE /* QPIncomeDetailTableViewCell.m */; };
+		50A2D12822487DD6001232CE /* QPIncomeDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D12622487DD6001232CE /* QPIncomeDetailTableViewCell.xib */; };
+		50A2D141224881F9001232CE /* QPHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D138224881F7001232CE /* QPHeaderTableViewCell.m */; };
+		50A2D142224881F9001232CE /* QPFillContantTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D139224881F8001232CE /* QPFillContantTableViewCell.m */; };
+		50A2D143224881F9001232CE /* QPMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D13A224881F8001232CE /* QPMineTableViewCell.m */; };
+		50A2D144224881F9001232CE /* QPMineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D13D224881F8001232CE /* QPMineTableViewCell.xib */; };
+		50A2D145224881F9001232CE /* QPHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D13E224881F8001232CE /* QPHeaderTableViewCell.xib */; };
+		50A2D146224881F9001232CE /* QPFillContantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D13F224881F9001232CE /* QPFillContantTableViewCell.xib */; };
+		50A2D15022488228001232CE /* QPPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D14722488228001232CE /* QPPersonViewController.xib */; };
+		50A2D15122488228001232CE /* QPOpinionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D14822488228001232CE /* QPOpinionViewController.m */; };
+		50A2D15222488228001232CE /* QPAboutMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D14922488228001232CE /* QPAboutMineViewController.m */; };
+		50A2D15322488228001232CE /* QPAboutMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D14C22488228001232CE /* QPAboutMineViewController.xib */; };
+		50A2D15422488228001232CE /* QPPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D14E22488228001232CE /* QPPersonViewController.m */; };
+		50A2D15522488228001232CE /* QPOpinionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D14F22488228001232CE /* QPOpinionViewController.xib */; };
+		50A2D1592248848C001232CE /* QPAddEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D1572248848C001232CE /* QPAddEventTableViewCell.m */; };
+		50A2D15A2248848C001232CE /* QPAddEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A2D1582248848C001232CE /* QPAddEventTableViewCell.xib */; };
+		50A2D15D22489FEB001232CE /* QPRoomModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D15C22489FEB001232CE /* QPRoomModel.m */; };
+		50A2D1612248AB78001232CE /* QPOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2D1602248AB78001232CE /* QPOrderModel.m */; };
 		50F053EC2244AD9400CDC533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F053EB2244AD9400CDC533 /* AppDelegate.m */; };
 		50F053EF2244AD9400CDC533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F053EE2244AD9400CDC533 /* ViewController.m */; };
 		50F053F22244AD9400CDC533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F053F02244AD9400CDC533 /* Main.storyboard */; };
@@ -92,6 +116,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5020E3DB2248785600F89B8C /* QPIncomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPIncomeTableViewCell.h; sourceTree = "<group>"; };
+		5020E3DC2248785600F89B8C /* QPIncomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPIncomeTableViewCell.m; sourceTree = "<group>"; };
+		5020E3DD2248785600F89B8C /* QPIncomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPIncomeTableViewCell.xib; sourceTree = "<group>"; };
+		50A2D11A22487B0B001232CE /* QPRoomIncomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPRoomIncomeViewController.h; sourceTree = "<group>"; };
+		50A2D11B22487B0B001232CE /* QPRoomIncomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPRoomIncomeViewController.m; sourceTree = "<group>"; };
+		50A2D11C22487B0B001232CE /* QPRoomIncomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPRoomIncomeViewController.xib; sourceTree = "<group>"; };
+		50A2D11F22487D6C001232CE /* QPIncomeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPIncomeDetailViewController.h; sourceTree = "<group>"; };
+		50A2D12022487D6C001232CE /* QPIncomeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPIncomeDetailViewController.m; sourceTree = "<group>"; };
+		50A2D12122487D6C001232CE /* QPIncomeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPIncomeDetailViewController.xib; sourceTree = "<group>"; };
+		50A2D12422487DD6001232CE /* QPIncomeDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPIncomeDetailTableViewCell.h; sourceTree = "<group>"; };
+		50A2D12522487DD6001232CE /* QPIncomeDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPIncomeDetailTableViewCell.m; sourceTree = "<group>"; };
+		50A2D12622487DD6001232CE /* QPIncomeDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPIncomeDetailTableViewCell.xib; sourceTree = "<group>"; };
+		50A2D138224881F7001232CE /* QPHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPHeaderTableViewCell.m; sourceTree = "<group>"; };
+		50A2D139224881F8001232CE /* QPFillContantTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPFillContantTableViewCell.m; sourceTree = "<group>"; };
+		50A2D13A224881F8001232CE /* QPMineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPMineTableViewCell.m; sourceTree = "<group>"; };
+		50A2D13B224881F8001232CE /* QPFillContantTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPFillContantTableViewCell.h; sourceTree = "<group>"; };
+		50A2D13C224881F8001232CE /* QPMineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPMineTableViewCell.h; sourceTree = "<group>"; };
+		50A2D13D224881F8001232CE /* QPMineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPMineTableViewCell.xib; sourceTree = "<group>"; };
+		50A2D13E224881F8001232CE /* QPHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		50A2D13F224881F9001232CE /* QPFillContantTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPFillContantTableViewCell.xib; sourceTree = "<group>"; };
+		50A2D140224881F9001232CE /* QPHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPHeaderTableViewCell.h; sourceTree = "<group>"; };
+		50A2D14722488228001232CE /* QPPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPPersonViewController.xib; sourceTree = "<group>"; };
+		50A2D14822488228001232CE /* QPOpinionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPOpinionViewController.m; sourceTree = "<group>"; };
+		50A2D14922488228001232CE /* QPAboutMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPAboutMineViewController.m; sourceTree = "<group>"; };
+		50A2D14A22488228001232CE /* QPAboutMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPAboutMineViewController.h; sourceTree = "<group>"; };
+		50A2D14B22488228001232CE /* QPPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPPersonViewController.h; sourceTree = "<group>"; };
+		50A2D14C22488228001232CE /* QPAboutMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPAboutMineViewController.xib; sourceTree = "<group>"; };
+		50A2D14D22488228001232CE /* QPOpinionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPOpinionViewController.h; sourceTree = "<group>"; };
+		50A2D14E22488228001232CE /* QPPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPPersonViewController.m; sourceTree = "<group>"; };
+		50A2D14F22488228001232CE /* QPOpinionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPOpinionViewController.xib; sourceTree = "<group>"; };
+		50A2D1562248848C001232CE /* QPAddEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QPAddEventTableViewCell.h; sourceTree = "<group>"; };
+		50A2D1572248848C001232CE /* QPAddEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QPAddEventTableViewCell.m; sourceTree = "<group>"; };
+		50A2D1582248848C001232CE /* QPAddEventTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QPAddEventTableViewCell.xib; sourceTree = "<group>"; };
+		50A2D15B22489FEB001232CE /* QPRoomModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPRoomModel.h; sourceTree = "<group>"; };
+		50A2D15C22489FEB001232CE /* QPRoomModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPRoomModel.m; sourceTree = "<group>"; };
+		50A2D15F2248AB78001232CE /* QPOrderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPOrderModel.h; sourceTree = "<group>"; };
+		50A2D1602248AB78001232CE /* QPOrderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPOrderModel.m; sourceTree = "<group>"; };
 		50F053E72244AD9300CDC533 /* ChessCardRoomAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessCardRoomAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F053EA2244AD9300CDC533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50F053EB2244AD9400CDC533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -239,6 +300,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A2D15E2248AB50001232CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50A2D15F2248AB78001232CE /* QPOrderModel.h */,
+				50A2D1602248AB78001232CE /* QPOrderModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		50F053DE2244AD9300CDC533 = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +396,15 @@
 				50F0549A2244B2FA00CDC533 /* QPMineViewController.h */,
 				50F0549B2244B2FA00CDC533 /* QPMineViewController.m */,
 				50F0549C2244B2FA00CDC533 /* QPMineViewController.xib */,
+				50A2D14A22488228001232CE /* QPAboutMineViewController.h */,
+				50A2D14922488228001232CE /* QPAboutMineViewController.m */,
+				50A2D14C22488228001232CE /* QPAboutMineViewController.xib */,
+				50A2D14D22488228001232CE /* QPOpinionViewController.h */,
+				50A2D14822488228001232CE /* QPOpinionViewController.m */,
+				50A2D14F22488228001232CE /* QPOpinionViewController.xib */,
+				50A2D14B22488228001232CE /* QPPersonViewController.h */,
+				50A2D14E22488228001232CE /* QPPersonViewController.m */,
+				50A2D14722488228001232CE /* QPPersonViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -333,6 +412,18 @@
 		50F0541F2244B0E000CDC533 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				50A2D1562248848C001232CE /* QPAddEventTableViewCell.h */,
+				50A2D1572248848C001232CE /* QPAddEventTableViewCell.m */,
+				50A2D1582248848C001232CE /* QPAddEventTableViewCell.xib */,
+				50A2D13B224881F8001232CE /* QPFillContantTableViewCell.h */,
+				50A2D139224881F8001232CE /* QPFillContantTableViewCell.m */,
+				50A2D13F224881F9001232CE /* QPFillContantTableViewCell.xib */,
+				50A2D140224881F9001232CE /* QPHeaderTableViewCell.h */,
+				50A2D138224881F7001232CE /* QPHeaderTableViewCell.m */,
+				50A2D13E224881F8001232CE /* QPHeaderTableViewCell.xib */,
+				50A2D13C224881F8001232CE /* QPMineTableViewCell.h */,
+				50A2D13A224881F8001232CE /* QPMineTableViewCell.m */,
+				50A2D13D224881F8001232CE /* QPMineTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -340,6 +431,7 @@
 		50F054202244B0E000CDC533 /* Room */ = {
 			isa = PBXGroup;
 			children = (
+				50A2D15E2248AB50001232CE /* Model */,
 				50F054212244B0E000CDC533 /* Controller */,
 				50F054222244B0E000CDC533 /* View */,
 			);
@@ -389,6 +481,12 @@
 				50F054952244B2E200CDC533 /* QPIncomeViewController.h */,
 				50F054962244B2E200CDC533 /* QPIncomeViewController.m */,
 				50F054972244B2E200CDC533 /* QPIncomeViewController.xib */,
+				50A2D11A22487B0B001232CE /* QPRoomIncomeViewController.h */,
+				50A2D11B22487B0B001232CE /* QPRoomIncomeViewController.m */,
+				50A2D11C22487B0B001232CE /* QPRoomIncomeViewController.xib */,
+				50A2D11F22487D6C001232CE /* QPIncomeDetailViewController.h */,
+				50A2D12022487D6C001232CE /* QPIncomeDetailViewController.m */,
+				50A2D12122487D6C001232CE /* QPIncomeDetailViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -396,6 +494,12 @@
 		50F054252244B0E000CDC533 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5020E3DB2248785600F89B8C /* QPIncomeTableViewCell.h */,
+				5020E3DC2248785600F89B8C /* QPIncomeTableViewCell.m */,
+				5020E3DD2248785600F89B8C /* QPIncomeTableViewCell.xib */,
+				50A2D12422487DD6001232CE /* QPIncomeDetailTableViewCell.h */,
+				50A2D12522487DD6001232CE /* QPIncomeDetailTableViewCell.m */,
+				50A2D12622487DD6001232CE /* QPIncomeDetailTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -439,12 +543,14 @@
 		50F0542B2244B11000CDC533 /* JSLocalStorageKit */ = {
 			isa = PBXGroup;
 			children = (
-				50F0542C2244B11000CDC533 /* BSEventModel.m */,
-				50F0542D2244B11000CDC533 /* JSLocalStorageKit.m */,
-				50F0542E2244B11000CDC533 /* JSUserInfo.m */,
 				50F0542F2244B11000CDC533 /* BSEventModel.h */,
+				50F0542C2244B11000CDC533 /* BSEventModel.m */,
+				50A2D15B22489FEB001232CE /* QPRoomModel.h */,
+				50A2D15C22489FEB001232CE /* QPRoomModel.m */,
 				50F054302244B11000CDC533 /* JSLocalStorageKit.h */,
+				50F0542D2244B11000CDC533 /* JSLocalStorageKit.m */,
 				50F054312244B11000CDC533 /* JSUserInfo.h */,
+				50F0542E2244B11000CDC533 /* JSUserInfo.m */,
 			);
 			path = JSLocalStorageKit;
 			sourceTree = "<group>";
@@ -734,24 +840,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F054B72244CEF400CDC533 /* QPAddPhoneTableViewCell.xib in Resources */,
+				5020E3DF2248785600F89B8C /* QPIncomeTableViewCell.xib in Resources */,
 				50F054D72244EA1900CDC533 /* QPResultsTableViewCell.xib in Resources */,
 				50F054CD2244E6AB00CDC533 /* QPSettlementViewController.xib in Resources */,
+				50A2D144224881F9001232CE /* QPMineTableViewCell.xib in Resources */,
 				50F0548F2244B25F00CDC533 /* 微软雅黑细体.ttf in Resources */,
+				50A2D11E22487B0B001232CE /* QPRoomIncomeViewController.xib in Resources */,
 				50F054B22244CE9C00CDC533 /* QPAddRoomTableViewCell.xib in Resources */,
+				50A2D15522488228001232CE /* QPOpinionViewController.xib in Resources */,
 				50F054C12244DAA900CDC533 /* QPMenuTableViewCell.xib in Resources */,
+				50A2D12322487D6C001232CE /* QPIncomeDetailViewController.xib in Resources */,
+				50A2D15A2248848C001232CE /* QPAddEventTableViewCell.xib in Resources */,
 				50F053F72244ADA200CDC533 /* LaunchScreen.storyboard in Resources */,
+				50A2D12822487DD6001232CE /* QPIncomeDetailTableViewCell.xib in Resources */,
 				50F053F42244ADA200CDC533 /* Assets.xcassets in Resources */,
 				50F054C62244DEE400CDC533 /* QPOrderViewController.xib in Resources */,
+				50A2D15022488228001232CE /* QPPersonViewController.xib in Resources */,
 				50F054A82244B79200CDC533 /* QPRoomTableViewCell.xib in Resources */,
 				50F054892244B13400CDC533 /* QPAgreementViewController.xib in Resources */,
 				50F0549E2244B2FA00CDC533 /* QPMineViewController.xib in Resources */,
 				50F054702244B11300CDC533 /* districts_bak.xml in Resources */,
 				50F054942244B2CB00CDC533 /* QPRoomViewController.xib in Resources */,
+				50A2D15322488228001232CE /* QPAboutMineViewController.xib in Resources */,
 				50F054992244B2E200CDC533 /* QPIncomeViewController.xib in Resources */,
 				50F054AD2244C2BA00CDC533 /* QPAddRoomViewController.xib in Resources */,
 				50F054D22244E9E600CDC533 /* QPSettlementTableViewCell.xib in Resources */,
 				50F053F22244AD9400CDC533 /* Main.storyboard in Resources */,
 				50F054BC2244D5CA00CDC533 /* QPUseViewController.xib in Resources */,
+				50A2D145224881F9001232CE /* QPHeaderTableViewCell.xib in Resources */,
+				50A2D146224881F9001232CE /* QPFillContantTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,6 +947,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F0548A2244B13400CDC533 /* QPRootTabBarViewController.m in Sources */,
+				50A2D142224881F9001232CE /* QPFillContantTableViewCell.m in Sources */,
+				5020E3DE2248785600F89B8C /* QPIncomeTableViewCell.m in Sources */,
 				50F054B12244CE9C00CDC533 /* QPAddRoomTableViewCell.m in Sources */,
 				50F0546F2244B11300CDC533 /* JSSelectViewTool.m in Sources */,
 				50F054B62244CEF400CDC533 /* QPAddPhoneTableViewCell.m in Sources */,
@@ -839,39 +958,50 @@
 				50F054832244B11300CDC533 /* AllAlbumCollectionViewCell.m in Sources */,
 				50F0546D2244B11300CDC533 /* JSUserInfo.m in Sources */,
 				50F0546A2244B11300CDC533 /* MMCleanCacheManager.m in Sources */,
+				50A2D12222487D6C001232CE /* QPIncomeDetailViewController.m in Sources */,
 				50F054752244B11300CDC533 /* UITableView+JSCustom.m in Sources */,
 				50F054D62244EA1900CDC533 /* QPResultsTableViewCell.m in Sources */,
 				50F0546C2244B11300CDC533 /* JSLocalStorageKit.m in Sources */,
 				50F0548B2244B13400CDC533 /* QPAgreementViewController.m in Sources */,
 				50F054792244B11300CDC533 /* UITextView+CustomFont.m in Sources */,
+				50A2D15422488228001232CE /* QPPersonViewController.m in Sources */,
 				50F053EF2244AD9400CDC533 /* ViewController.m in Sources */,
 				50F054BB2244D5CA00CDC533 /* QPUseViewController.m in Sources */,
 				50F054AC2244C2BA00CDC533 /* QPAddRoomViewController.m in Sources */,
 				50F054A72244B79200CDC533 /* QPRoomTableViewCell.m in Sources */,
+				50A2D15122488228001232CE /* QPOpinionViewController.m in Sources */,
 				50F0547D2244B11300CDC533 /* GroupTableViewController.m in Sources */,
 				50F054C02244DAA900CDC533 /* QPMenuTableViewCell.m in Sources */,
 				50F054982244B2E200CDC533 /* QPIncomeViewController.m in Sources */,
 				50F0547C2244B11300CDC533 /* GroupTableViewCell.m in Sources */,
+				50A2D143224881F9001232CE /* QPMineTableViewCell.m in Sources */,
 				50F054732244B11300CDC533 /* UIViewController+TouchAvatar.m in Sources */,
 				50F054742244B11300CDC533 /* UINavigationBar+BackgroundColor.m in Sources */,
+				50A2D141224881F9001232CE /* QPHeaderTableViewCell.m in Sources */,
 				50F054772244B11300CDC533 /* UILabel+CustomFont.m in Sources */,
 				50F0546B2244B11300CDC533 /* BSEventModel.m in Sources */,
 				50F054782244B11300CDC533 /* UIButton+CustomFont.m in Sources */,
 				50F054762244B11300CDC533 /* JS3DImageViewController.m in Sources */,
 				50F0549D2244B2FA00CDC533 /* QPMineViewController.m in Sources */,
 				50F054802244B11300CDC533 /* PhotoDetailsCollectionViewController.m in Sources */,
+				50A2D12722487DD6001232CE /* QPIncomeDetailTableViewCell.m in Sources */,
 				50F053FA2244ADA200CDC533 /* main.m in Sources */,
+				50A2D11D22487B0B001232CE /* QPRoomIncomeViewController.m in Sources */,
 				50F054D12244E9E600CDC533 /* QPSettlementTableViewCell.m in Sources */,
 				50F054CC2244E6AB00CDC533 /* QPSettlementViewController.m in Sources */,
 				50F0547B2244B11300CDC533 /* JSFPictureManager.m in Sources */,
 				50F054932244B2CB00CDC533 /* QPRoomViewController.m in Sources */,
+				50A2D1592248848C001232CE /* QPAddEventTableViewCell.m in Sources */,
 				50F054812244B11300CDC533 /* JSPictureManager.m in Sources */,
+				50A2D15D22489FEB001232CE /* QPRoomModel.m in Sources */,
 				50F0547F2244B11300CDC533 /* PhotoDetailsCollectionViewCell.m in Sources */,
 				50F054822244B11300CDC533 /* AllAlbumViewController.m in Sources */,
 				50F053EC2244AD9400CDC533 /* AppDelegate.m in Sources */,
 				50F0547A2244B11300CDC533 /* UITextField+CustomFont.m in Sources */,
 				50F054C52244DEE400CDC533 /* QPOrderViewController.m in Sources */,
 				50F0546E2244B11300CDC533 /* JSCommonAlertView.m in Sources */,
+				50A2D15222488228001232CE /* QPAboutMineViewController.m in Sources */,
+				50A2D1612248AB78001232CE /* QPOrderModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

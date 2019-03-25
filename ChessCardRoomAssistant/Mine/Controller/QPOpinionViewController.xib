@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OpinionViewController">
+            <connections>
+                <outlet property="submitBtn" destination="GkG-Ji-6hD" id="rBZ-lc-2PX"/>
+                <outlet property="tableView" destination="qvF-Rm-iLd" id="Jny-Xy-Qmn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qvF-Rm-iLd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GkG-Ji-6hD">
+                    <rect key="frame" x="50" y="567" width="275" height="50"/>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.32549019610000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="TGt-A0-MmZ"/>
+                    </constraints>
+                    <state key="normal" title="Submit">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="submitClick:" destination="-1" eventType="touchUpInside" id="exa-zt-9JK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GkG-Ji-6hD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="5qu-os-d93"/>
+                <constraint firstItem="qvF-Rm-iLd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="CIf-5G-csg"/>
+                <constraint firstAttribute="trailing" secondItem="GkG-Ji-6hD" secondAttribute="trailing" constant="50" id="DJQ-oK-tYk"/>
+                <constraint firstItem="GkG-Ji-6hD" firstAttribute="top" secondItem="qvF-Rm-iLd" secondAttribute="bottom" id="KuG-OM-589"/>
+                <constraint firstAttribute="trailing" secondItem="qvF-Rm-iLd" secondAttribute="trailing" id="V5P-0X-9VO"/>
+                <constraint firstAttribute="bottom" secondItem="GkG-Ji-6hD" secondAttribute="bottom" constant="50" id="ZDx-XD-YXs"/>
+                <constraint firstItem="qvF-Rm-iLd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="neF-zj-yUd"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="135.38230884557723"/>
+        </view>
+    </objects>
+</document>

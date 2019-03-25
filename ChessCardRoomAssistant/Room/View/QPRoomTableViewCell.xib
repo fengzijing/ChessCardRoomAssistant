@@ -39,26 +39,25 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQq-Hk-hrB">
                                 <rect key="frame" x="297" y="42" width="33" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.2685735821723938" green="0.54261040687561035" blue="0.87453848123550415" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tR-am-b9p">
-                                <rect key="frame" x="205" y="61.5" width="75.5" height="21.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.92156862750000001" green="0.32549019610000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Room usage time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9J-ai-3Zu">
-                                <rect key="frame" x="85" y="64" width="105" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/ hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tR-am-b9p">
+                                <rect key="frame" x="115.5" y="63" width="35.5" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b9J-ai-3Zu">
+                                <rect key="frame" x="85" y="62" width="25.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.92156862750000001" green="0.32549019610000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="i3a-Al-xGh" firstAttribute="leading" secondItem="Ct8-h0-UK5" secondAttribute="leading" constant="15" id="4Gx-9k-yHS"/>
-                            <constraint firstItem="0tR-am-b9p" firstAttribute="leading" secondItem="b9J-ai-3Zu" secondAttribute="trailing" constant="15" id="J7n-Ki-bN1"/>
+                            <constraint firstItem="0tR-am-b9p" firstAttribute="leading" secondItem="b9J-ai-3Zu" secondAttribute="trailing" constant="5" id="J7n-Ki-bN1"/>
                             <constraint firstItem="HQq-Hk-hrB" firstAttribute="centerY" secondItem="Ct8-h0-UK5" secondAttribute="centerY" id="JHb-HQ-80v"/>
                             <constraint firstItem="b9J-ai-3Zu" firstAttribute="leading" secondItem="i3a-Al-xGh" secondAttribute="trailing" constant="10" id="MPN-vP-xcn"/>
                             <constraint firstItem="A1I-cL-OeA" firstAttribute="top" secondItem="i3a-Al-xGh" secondAttribute="top" id="OEV-ct-eJ3"/>
@@ -85,6 +84,7 @@
             <connections>
                 <outlet property="bgView" destination="Ct8-h0-UK5" id="Bbv-v0-DDd"/>
                 <outlet property="headerImageView" destination="i3a-Al-xGh" id="2r1-ha-vW6"/>
+                <outlet property="priceLabel" destination="b9J-ai-3Zu" id="taX-IX-NNM"/>
                 <outlet property="roomLabel" destination="A1I-cL-OeA" id="0CV-T5-Ufq"/>
                 <outlet property="stateLabel" destination="HQq-Hk-hrB" id="pOq-M1-H1w"/>
                 <outlet property="timeLabel" destination="0tR-am-b9p" id="Rbp-tP-GMq"/>

@@ -30,13 +30,16 @@
     self.navigationItem.hidesBackButton = YES;
 }
 
+- (IBAction)completeSettlementClick:(UIButton *)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 
 
 #pragma UITableViewDelegate,UITableViewDataSource
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     
-    return 2;//self.dataArr.count;
+    return 2;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -67,9 +70,15 @@
     
     if (indexPath.section==0) {
         QPSettlementTableViewCell * cell = [QPSettlementTableViewCell cellWithTableView:tableView];
+        cell.totalLabel.text = self.roomModel.total_price;
         return cell;
     } else {
         QPResultsTableViewCell * cell = [QPResultsTableViewCell cellWithTableView:tableView];
+        cell.startLabel.text = self.roomModel.start_time;
+        cell.endLabel.text = self.roomModel.end_time;
+        cell.useLabel.text = self.roomModel.time_leng;
+        cell.roomPriceLabel.text = self.roomModel.room_price;
+        cell.otherLabel.text = self.roomModel.other_price;
         return cell;
     }
     

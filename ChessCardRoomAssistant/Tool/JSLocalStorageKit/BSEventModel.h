@@ -8,29 +8,28 @@
 
 #import <Foundation/Foundation.h>
 #import "JSLocalStorageKit.h"
+@class QPRoomModel;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BSEventModel : NSObject
 
 
+@property(copy,nonatomic) NSData *  header_image;
+
 @property(copy,nonatomic) NSString * title;
 
-@property(copy,nonatomic) NSString * time;
+@property(copy,nonatomic) NSString * price;
 
-@property(copy,nonatomic) NSString * venue;
+@property(copy,nonatomic) NSString * note;
 
-@property(copy,nonatomic) NSString *  home_name;
+@property(copy,nonatomic) NSString *  total_price;
 
-@property(copy,nonatomic) NSData *  home_logo;
+@property (nonatomic, assign) BOOL isState;
 
-@property(copy,nonatomic) NSData *  guest_logo;
+@property (nonatomic, strong) NSMutableArray<QPRoomModel*> * roomArr;
 
-@property(strong,nonatomic) NSString * guest_name;
 
-@property(copy,nonatomic) NSString * home_score;
-
-@property(copy,nonatomic) NSString *  guest_score;
 
 @property(assign,nonatomic) BOOL isStart;
 

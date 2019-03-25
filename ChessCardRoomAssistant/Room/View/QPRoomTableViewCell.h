@@ -17,7 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *roomLabel;
 @property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *stateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *priceLabel;
 
+@property (nonatomic, weak) BSEventModel * model;
 
 + (QPRoomTableViewCell *)cellWithTableView:(UITableView *)tableView;
 

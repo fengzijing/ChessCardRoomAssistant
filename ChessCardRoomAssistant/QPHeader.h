@@ -24,6 +24,7 @@
 #import "JSUserInfo.h"
 #import "JSLocalStorageKit.h"
 #import "BSEventModel.h"
+#import "QPRoomModel.h"
 #import "JSProgressHUD.h"
 
 #import "IQKeyboardManager.h"

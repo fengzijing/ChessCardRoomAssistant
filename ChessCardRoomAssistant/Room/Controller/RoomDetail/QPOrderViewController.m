@@ -10,9 +10,12 @@
 #import "QPAddRoomTableViewCell.h"
 
 
+
 @interface QPOrderViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIButton *saveBtn;
+
+@property (nonatomic, strong) QPOrderModel * orderModel;
 
 @end
 
@@ -30,7 +33,19 @@
 }
 
 - (IBAction)saveOrderClick:(UIButton *)sender {
-    [self.navigationController popViewControllerAnimated:YES];
+    if (self.orderModel.name.length==0) {
+        [JSProgressHUD showInfoWithStatus:NSLocalizedString(@"Please enter the name of the product", nil)];
+        return;
+    }
+    if (self.orderModel.price.length==0) {
+        [JSProgressHUD showInfoWithStatus:NSLocalizedString(@"Please enter the price", nil)];
+        return;
+    }
+    if (self.orderModel) {
+        self.itemBlock(self.orderModel);
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    
 }
 
 #pragma UITableViewDelegate,UITableViewDataSource
@@ -60,18 +75,38 @@
 
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    @weakify(self);
     QPAddRoomTableViewCell * cell = [QPAddRoomTableViewCell cellWithTableView:tableView];
     if (indexPath.section==0) {
         cell.leftLabel.text = @"Goods";
         cell.rightField.placeholder = @"Please enter the name of the product";
-        
+        if (self.orderModel.name.length>0) {
+            cell.rightField.text = self.orderModel.name;
+        }
+        [[cell.rightField rac_textSignal]subscribeNext:^(NSString * _Nullable x) {
+            @strongify(self);
+            self.orderModel.name = x;
+        }];
     } else if (indexPath.section==1) {
         cell.leftLabel.text = @"Price";
         cell.rightField.placeholder = @"Please enter the price";
+        if (self.orderModel.price.length>0) {
+            cell.rightField.text = self.orderModel.price;
+        }
+        [[cell.rightField rac_textSignal]subscribeNext:^(NSString * _Nullable x) {
+            @strongify(self);
+            self.orderModel.price = x;
+        }];
     } else {
         cell.leftLabel.text = @"Note";
         cell.rightField.placeholder = @"Please enter remarks";
+        if (self.orderModel.note.length>0) {
+            cell.rightField.text = self.orderModel.note;
+        }
+        [[cell.rightField rac_textSignal]subscribeNext:^(NSString * _Nullable x) {
+            @strongify(self);
+            self.orderModel.note = x;
+        }];
     }
     return cell;
     
@@ -79,6 +114,14 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
+}
+
+
+-(QPOrderModel *)orderModel{
+    if (!_orderModel) {
+        _orderModel = [[QPOrderModel alloc]init];
+    }
+    return _orderModel;
 }
 
 @end

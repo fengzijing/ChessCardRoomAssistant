@@ -7,10 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QPOrderModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QPOrderViewController : UIViewController
+
+typedef void(^MenuBlock)(QPOrderModel * orderModel);
+
+@property (nonatomic, copy) MenuBlock itemBlock;
+
 
 @end
 

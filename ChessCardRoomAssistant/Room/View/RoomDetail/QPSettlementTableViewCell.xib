@@ -21,7 +21,36 @@
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5V-1T-hq2">
                         <rect key="frame" x="15" y="0.0" width="290" height="199.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jk_success" translatesAutoresizingMaskIntoConstraints="NO" id="s3i-5v-7y2">
+                                <rect key="frame" x="110" y="20" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="aN8-Wa-geT"/>
+                                    <constraint firstAttribute="height" constant="70" id="uaS-0N-ZwD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="56789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAb-1R-quB">
+                                <rect key="frame" x="97" y="136" width="96" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total consumption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHd-07-ZoN">
+                                <rect key="frame" x="89" y="105" width="112" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CHd-07-ZoN" firstAttribute="top" secondItem="s3i-5v-7y2" secondAttribute="bottom" constant="15" id="1Uu-wm-pA8"/>
+                            <constraint firstItem="s3i-5v-7y2" firstAttribute="top" secondItem="y5V-1T-hq2" secondAttribute="top" constant="20" id="75k-jd-MGB"/>
+                            <constraint firstItem="WAb-1R-quB" firstAttribute="centerX" secondItem="y5V-1T-hq2" secondAttribute="centerX" id="Gxz-oS-z2D"/>
+                            <constraint firstItem="WAb-1R-quB" firstAttribute="top" secondItem="CHd-07-ZoN" secondAttribute="bottom" constant="15" id="NIB-j5-6TK"/>
+                            <constraint firstItem="s3i-5v-7y2" firstAttribute="centerX" secondItem="y5V-1T-hq2" secondAttribute="centerX" id="r2x-Bg-3Gb"/>
+                            <constraint firstItem="CHd-07-ZoN" firstAttribute="centerX" secondItem="y5V-1T-hq2" secondAttribute="centerX" id="t0Y-hS-xFz"/>
+                        </constraints>
                     </view>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -36,7 +65,11 @@
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
             <connections>
                 <outlet property="bgView" destination="y5V-1T-hq2" id="4gI-PC-8sL"/>
+                <outlet property="totalLabel" destination="WAb-1R-quB" id="4Ve-Sy-cdK"/>
             </connections>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="jk_success" width="70" height="70.5"/>
+    </resources>
 </document>

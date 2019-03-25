@@ -57,4 +57,18 @@
 }
 
 
+-(NSString *)total_price{
+    if (_total_price.length==0) {
+        _total_price = @"0";
+    }
+    return _total_price;
+}
+
+-(NSMutableArray<QPRoomModel *> *)roomArr{
+    if (!_roomArr) {
+        _roomArr = [NSMutableArray array];
+    }
+    return _roomArr;
+}
+
 @end

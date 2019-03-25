@@ -29,6 +29,13 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"tianjia"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(addRoomClick)];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.dataArr = [JSUserInfo shareManager].eventArr;
+    [self.tableView reloadData];
+}
+
+
 -(void)addRoomClick{
     QPAddRoomViewController * addRoomVC = [[QPAddRoomViewController alloc]init];
     addRoomVC.hidesBottomBarWhenPushed = YES;
@@ -38,12 +45,12 @@
 #pragma UITableViewDelegate,UITableViewDataSource
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-//    if (self.dataArr.count==0) {
-//        [self.tableView showEmptyView];
-//    } else {
-//        [self.tableView hideEmptyView];
-//    }
-    return 5;//self.dataArr.count;
+    if (self.dataArr.count==0) {
+        [self.tableView showEmptyView];
+    } else {
+        [self.tableView hideEmptyView];
+    }
+    return self.dataArr.count;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -65,18 +72,19 @@
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-//    BSEventModel * model = self.dataArr[indexPath.section];
+    BSEventModel * model = self.dataArr[indexPath.section];
     QPRoomTableViewCell * cell = [QPRoomTableViewCell cellWithTableView:tableView];
-//    cell.model = model;
+    cell.model = model;
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    BSEventModel * model = self.dataArr[indexPath.section];
+    BSEventModel * model = self.dataArr[indexPath.section];
     QPUseViewController * addPasswordVC = [[QPUseViewController alloc]init];
     addPasswordVC.hidesBottomBarWhenPushed = YES;
-//    addPasswordVC.index_count = indexPath.section;
-//    addPasswordVC.model = model;
+    addPasswordVC.isState = model.isState;
+    addPasswordVC.index_count = indexPath.section;
+    addPasswordVC.model = model;
     [self.navigationController pushViewController:addPasswordVC animated:YES];
     
 }
