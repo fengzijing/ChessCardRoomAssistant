@@ -47,7 +47,7 @@
     [self observeApplicationActionNotification];
     if (self.isState) {
         self.isSuspended = YES;
-        [self.startBtn setImage:[UIImage imageNamed:@"end_icon"] forState:UIControlStateNormal];
+        [self.startBtn setImage:[UIImage imageNamed:@"no_click"] forState:UIControlStateNormal];
         self.startBtn.userInteractionEnabled = NO;
         QPRoomModel * roomModel = [self.model.roomArr firstObject];;
         self.timestamp = [NSDate date].timeIntervalSince1970;
@@ -98,7 +98,7 @@
     }
     
     str = [NSString stringWithFormat:@"%ld",self.other_price+str.integerValue];
-    UIFont *boldFont = [UIFont boldSystemFontOfSize:24];
+    UIFont *boldFont = [UIFont boldSystemFontOfSize:32];
     NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithString:str];
     [attrString addAttribute:NSFontAttributeName value:boldFont range:NSMakeRange(0, str.length)];
     self.totalLabel.attributedText = attrString;
@@ -174,7 +174,7 @@
         [array replaceObjectAtIndex:self.index_count withObject:self.model];
         [JSUserInfo shareManager].eventArr = array;
     }
-    [sender setImage:[UIImage imageNamed:@"end_icon"] forState:UIControlStateNormal];
+    [sender setImage:[UIImage imageNamed:@"no_click"] forState:UIControlStateNormal];
     self.time = [NSTimer scheduledTimerWithTimeInterval:1 block:^(NSTimer * _Nonnull timer) {
         self.time_count = self.time_count+1;
         [self getHeaderViewData];

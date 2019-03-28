@@ -90,6 +90,7 @@
     } else if (indexPath.section==1) {
         cell.leftLabel.text = @"Price";
         cell.rightField.placeholder = @"Please enter the price";
+        cell.rightField.keyboardType = UIKeyboardTypeNumberPad;
         if (self.orderModel.price.length>0) {
             cell.rightField.text = self.orderModel.price;
         }

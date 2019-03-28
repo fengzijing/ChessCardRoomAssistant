@@ -72,8 +72,8 @@
     if(_passwordViewControl==nil){
         _passwordViewControl = [QPRoomViewController new];
         _passwordViewControl.tabBarItem.title = @"Room";
-        _passwordViewControl.tabBarItem.selectedImage = [[UIImage imageNamed:@"wode_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        _passwordViewControl.tabBarItem.image = [[UIImage imageNamed:@"wode"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        _passwordViewControl.tabBarItem.selectedImage = [[UIImage imageNamed:@"room_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        _passwordViewControl.tabBarItem.image = [[UIImage imageNamed:@"room_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
     return _passwordViewControl;
 }
@@ -82,8 +82,8 @@
     if(_incomeViewControl==nil){
         _incomeViewControl = [QPIncomeViewController new];
         _incomeViewControl.tabBarItem.title = @"Income";
-        _incomeViewControl.tabBarItem.selectedImage = [[UIImage imageNamed:@"wode_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        _incomeViewControl.tabBarItem.image = [[UIImage imageNamed:@"wode"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        _incomeViewControl.tabBarItem.selectedImage = [[UIImage imageNamed:@"income_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        _incomeViewControl.tabBarItem.image = [[UIImage imageNamed:@"income_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
     return _incomeViewControl;
 }
@@ -95,7 +95,7 @@
         _mineViewControl = [QPMineViewController new];
         _mineViewControl.tabBarItem.title = @"Mine";
         _mineViewControl.tabBarItem.selectedImage = [[UIImage imageNamed:@"wode_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        _mineViewControl.tabBarItem.image = [[UIImage imageNamed:@"wode"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        _mineViewControl.tabBarItem.image = [[UIImage imageNamed:@"wode_icon"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
     return _mineViewControl;
 }

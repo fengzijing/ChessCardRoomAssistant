@@ -95,6 +95,7 @@
 		50F054D22244E9E600CDC533 /* QPSettlementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F054D02244E9E600CDC533 /* QPSettlementTableViewCell.xib */; };
 		50F054D62244EA1900CDC533 /* QPResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F054D42244EA1900CDC533 /* QPResultsTableViewCell.m */; };
 		50F054D72244EA1900CDC533 /* QPResultsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F054D52244EA1900CDC533 /* QPResultsTableViewCell.xib */; };
+		50F2C4F1224B2B1600EC5796 /* 启动页.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F2C4F0224B2B1600EC5796 /* 启动页.png */; };
 		56BB125D45A4E09674390332 /* libPods-ChessCardRoomAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB782B36CAFDFA1ED8F2BFD /* libPods-ChessCardRoomAssistant.a */; };
 /* End PBXBuildFile section */
 
@@ -269,6 +270,7 @@
 		50F054D32244EA1900CDC533 /* QPResultsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPResultsTableViewCell.h; sourceTree = "<group>"; };
 		50F054D42244EA1900CDC533 /* QPResultsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPResultsTableViewCell.m; sourceTree = "<group>"; };
 		50F054D52244EA1900CDC533 /* QPResultsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPResultsTableViewCell.xib; sourceTree = "<group>"; };
+		50F2C4F0224B2B1600EC5796 /* 启动页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启动页.png"; sourceTree = "<group>"; };
 		92D349BD0E9550EA7CC2A786 /* Pods-ChessCardRoomAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessCardRoomAssistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChessCardRoomAssistant/Pods-ChessCardRoomAssistant.release.xcconfig"; sourceTree = "<group>"; };
 		9FB782B36CAFDFA1ED8F2BFD /* libPods-ChessCardRoomAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChessCardRoomAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CA53F1445711581EB6D2D9 /* Pods-ChessCardRoomAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChessCardRoomAssistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChessCardRoomAssistant/Pods-ChessCardRoomAssistant.debug.xcconfig"; sourceTree = "<group>"; };
@@ -343,6 +345,7 @@
 				50F053F02244AD9400CDC533 /* Main.storyboard */,
 				50F053F32244ADA200CDC533 /* Assets.xcassets */,
 				50F053F52244ADA200CDC533 /* LaunchScreen.storyboard */,
+				50F2C4F0224B2B1600EC5796 /* 启动页.png */,
 				50F053F82244ADA200CDC533 /* Info.plist */,
 				50F0548C2244B1F800CDC533 /* QPHeader.h */,
 				50F0548D2244B20800CDC533 /* QPPrefixHeader.pch */,
@@ -844,6 +847,7 @@
 				50F054D72244EA1900CDC533 /* QPResultsTableViewCell.xib in Resources */,
 				50F054CD2244E6AB00CDC533 /* QPSettlementViewController.xib in Resources */,
 				50A2D144224881F9001232CE /* QPMineTableViewCell.xib in Resources */,
+				50F2C4F1224B2B1600EC5796 /* 启动页.png in Resources */,
 				50F0548F2244B25F00CDC533 /* 微软雅黑细体.ttf in Resources */,
 				50A2D11E22487B0B001232CE /* QPRoomIncomeViewController.xib in Resources */,
 				50F054B22244CE9C00CDC533 /* QPAddRoomTableViewCell.xib in Resources */,

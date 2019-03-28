@@ -27,10 +27,16 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[[UIImage imageNamed:@"tianjia"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(addRoomClick)];
+//    for (int index=20; index<25; index++) {
+//        NSString *imgName=[NSString stringWithFormat:@"%d.jpg",index];
+//        UIImage *img=[UIImage imageNamed:imgName];
+//        UIImageWriteToSavedPhotosAlbum(img, nil, nil, nil);
+//    }
 }
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+//    [JSUserInfo shareManager].eventArr = [NSMutableArray array];
     self.dataArr = [JSUserInfo shareManager].eventArr;
     [self.tableView reloadData];
 }

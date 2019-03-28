@@ -28,41 +28,35 @@
                         <constraint firstAttribute="height" constant="80" id="inD-im-ith"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basketball scorecard" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPI-yh-qqg">
-                    <rect key="frame" x="120" y="70" width="225" height="40"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="S3x-kB-x0i"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chess card room assistant" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YPI-yh-qqg">
+                    <rect key="frame" x="120" y="70" width="225" height="80"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basketball scorecard is an app that helps score basketball games. It is very simple and convenient to use." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDI-h4-RaA">
-                    <rect key="frame" x="30" y="170" width="315" height="50.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="‘Chess card room assistant’ is an App to help manage the chess and card room" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDI-h4-RaA">
+                    <rect key="frame" x="30" y="170" width="315" height="33.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version number: V1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXI-ES-lmE">
-                    <rect key="frame" x="120" y="110" width="225" height="40"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="aY0-O3-ZBI"/>
-                    </constraints>
+                    <rect key="frame" x="119" y="600" width="137" height="17"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="YPI-yh-qqg" firstAttribute="leading" secondItem="RaO-v8-aWo" secondAttribute="trailing" constant="10" id="C3X-Wo-zGk"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="YPI-yh-qqg" secondAttribute="trailing" constant="30" id="FBf-tn-2at"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="QXI-ES-lmE" secondAttribute="bottom" constant="50" id="6b0-yh-JlL"/>
+                <constraint firstItem="QXI-ES-lmE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KIc-RU-3OF"/>
                 <constraint firstItem="RaO-v8-aWo" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="L3U-cE-cKT"/>
                 <constraint firstItem="XDI-h4-RaA" firstAttribute="top" secondItem="RaO-v8-aWo" secondAttribute="bottom" constant="20" id="Syr-e1-h4i"/>
                 <constraint firstItem="RaO-v8-aWo" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="UHW-Hu-Kkf"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="XDI-h4-RaA" secondAttribute="trailing" constant="30" id="Vbw-J7-vfW"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="QXI-ES-lmE" secondAttribute="trailing" constant="30" id="g34-ei-9b0"/>
-                <constraint firstItem="QXI-ES-lmE" firstAttribute="bottom" secondItem="RaO-v8-aWo" secondAttribute="bottom" id="ism-VL-vwA"/>
-                <constraint firstItem="YPI-yh-qqg" firstAttribute="top" secondItem="RaO-v8-aWo" secondAttribute="top" id="mwj-IJ-8wf"/>
+                <constraint firstItem="YPI-yh-qqg" firstAttribute="bottom" secondItem="RaO-v8-aWo" secondAttribute="bottom" id="nrW-0M-i7B"/>
+                <constraint firstItem="YPI-yh-qqg" firstAttribute="leading" secondItem="RaO-v8-aWo" secondAttribute="trailing" constant="10" id="pmZ-xP-zAy"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="YPI-yh-qqg" secondAttribute="trailing" constant="30" id="rQ2-1l-g8O"/>
+                <constraint firstItem="YPI-yh-qqg" firstAttribute="top" secondItem="RaO-v8-aWo" secondAttribute="top" id="rhr-uO-fje"/>
                 <constraint firstItem="XDI-h4-RaA" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="30" id="w7d-xd-LbI"/>
-                <constraint firstItem="QXI-ES-lmE" firstAttribute="leading" secondItem="RaO-v8-aWo" secondAttribute="trailing" constant="10" id="y0b-1H-vLb"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>
