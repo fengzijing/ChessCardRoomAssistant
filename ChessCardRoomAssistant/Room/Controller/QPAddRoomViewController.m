@@ -111,6 +111,7 @@
             cell.leftLabel.text = @"Billing";
             cell.uniLabel.text = @"/ hour";
             cell.rightField.placeholder = @"Please enter the price";
+            cell.rightField.keyboardType = UIKeyboardTypeNumberPad;
             if (self.model.price.length>0) {
                 cell.rightField.text = self.model.price;
             }

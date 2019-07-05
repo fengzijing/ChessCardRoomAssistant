@@ -19,13 +19,15 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>&quot;Chess and card room assistant&quot; needs to enter your camera to help add the avatar and room photos</string>
+	<string>"Chess and card room assistant" needs to enter your camera to help add the avatar and room photos</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Please allow access to your location</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>&quot;Chess and card room assistant&quot; needs to enter your album to help add the avatar and room photos</string>
+	<string>"Chess and card room assistant" needs to enter your album to help add the avatar and room photos</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>微软雅黑细体.ttf</string>
